@@ -1,0 +1,114 @@
+.btn-twitter{
+    background-color: #31a1f2;
+    color: white;
+}
+
+a.btn-twitter:hover{
+    color: white;
+    box-shadow: -2px 3px 6px black;
+}
+
+/* GLOBAL */
+body
+{
+    background-image: url('https://64.media.tumblr.com/feaad0a88d7ba1c5c8eb601239147784/acddc8b1859dc903-c1/s500x750/7836fa4e0a8460b9c2ff940169e2d331ea52c255.gifv');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+html, .container, .row{
+    background-image: url('https://64.media.tumblr.com/feaad0a88d7ba1c5c8eb601239147784/acddc8b1859dc903-c1/s500x750/7836fa4e0a8460b9c2ff940169e2d331ea52c255.gifv');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: contain;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+/*
+
+    ESTILOS FORMULARIO
+
+*/
+
+div.col-lg-4
+{
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, #1e1e96, #223946) 1;
+}
+
+button.btn-success
+{
+    margin: 10px 0px;
+    background-image: linear-gradient(to bottom, #1e1e96, #223946);
+    border: 0;
+}
+
+div.form-group{
+    margin: 10px auto;
+}
+
+/*
+
+    ESTILOS TARJETA
+    
+*/
+
+.col-lg-7 .card-header, .card-footer{
+    background-image: linear-gradient(to right, #1e1e96, #223946);
+    color: white;
+    font-weight: 700;
+}
+
+.card-body
+{
+    background-image: url('https://www.wallpaperuse.com/wallp/32-320487_m.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: contain;
+}
+
+.card-content
+{
+    background-color: transparent;
+    width: fit-content;
+    margin: 5px auto;
+    padding: 50px 20px;
+    border: 10px solid black;
+}
+
+.card-content img
+{
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    margin: 0px auto 25px auto;
+}
+
+.card-title
+{
+    font-weight: 700;
+    background: linear-gradient(to bottom,#fafafc, #5ea8d3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;
+    font-size: 30px;
+    text-align: center;
+}
+
+.Student
+{
+    font-weight: 700;
+}
+
+.Aprendido
+{
+    font-size: 20px;
+}
